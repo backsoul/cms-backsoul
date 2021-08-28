@@ -8,6 +8,10 @@ services:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+
+      - VIRTUAL_HOST=backsoul.django.com
+      - LETSENCRYPT_HOST=backsoul.django.com
+      - LETSENCRYPT_EMAIL=danielsarmientoenterprise@gmail.com
     networks:
       - postgres_db
 
@@ -17,8 +21,8 @@ services:
     ports:
       - 2222:2222
     environment:
-      PGADMIN_DEFAULT_EMAIL: principal@shf.com.co
-      PGADMIN_DEFAULT_PASSWORD: mauricioa1989_
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin123
       PGADMIN_LISTEN_PORT: 2222
     networks:
       - postgres_db

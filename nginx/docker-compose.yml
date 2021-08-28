@@ -1,0 +1,29 @@
+version: '2.0'
+
+services:
+  proxy:
+    image: jwilder/nginx-proxy:alpine
+    container_name: proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - nginx_certs:/etc/nginx/certs:ro
+      - nginx_vhosts:/etc/nginx/vhost.d
+      - nginx_html:/usr/share/nginx/html
+
+  letsencrypt:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    environment:
+      - DEFAULT_EMAIL=danielsarmientoenterprise@gmail.com
+      - NGINX_PROXY_CONTAINER=proxy
+    volumes_from:
+      - proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - nginx_certs:/etc/nginx/certs:rw
+volumes:
+  nginx_certs:
+  nginx_vhosts:
+  nginx_html:
