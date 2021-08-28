@@ -17,6 +17,23 @@
         "documentation": {}
     },
     {
+        "label": "graphene",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "graphene",
+        "description": "graphene",
+        "detail": "graphene",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -33,11 +50,99 @@
         "documentation": {}
     },
     {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "GraphQLView",
+        "importPath": "graphene_django.views",
+        "description": "graphene_django.views",
+        "isExtraImport": true,
+        "detail": "graphene_django.views",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
         "documentation": {}
     },
     {
@@ -59,11 +164,29 @@
         "documentation": {}
     },
     {
+        "label": "Query",
+        "kind": 6,
+        "importPath": "app.schema",
+        "description": "app.schema",
+        "peekOfCode": "class Query(graphene.ObjectType):\n    hello = graphene.String(default_value=\"Hi!\")\nschema = graphene.Schema(query=Query)",
+        "detail": "app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "schema",
+        "kind": 5,
+        "importPath": "app.schema",
+        "description": "app.schema",
+        "peekOfCode": "schema = graphene.Schema(query=Query)",
+        "detail": "app.schema",
+        "documentation": {}
+    },
+    {
         "label": "BASE_DIR",
         "kind": 5,
         "importPath": "app.settings",
         "description": "app.settings",
-        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'eqda*kl$7@vdr-$_@u$aj5n9^rp&vbmbu*-3jly%zpc23u0=_^'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'eqda*kl$7@vdr-$_@u$aj5n9^rp&vbmbu*-3jly%zpc23u0=_^'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {",
         "detail": "app.settings",
         "documentation": {}
     },
@@ -72,7 +195,7 @@
         "kind": 5,
         "importPath": "app.settings",
         "description": "app.settings",
-        "peekOfCode": "SECRET_KEY = 'eqda*kl$7@vdr-$_@u$aj5n9^rp&vbmbu*-3jly%zpc23u0=_^'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = 'eqda*kl$7@vdr-$_@u$aj5n9^rp&vbmbu*-3jly%zpc23u0=_^'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'",
         "detail": "app.settings",
         "documentation": {}
     },
@@ -81,7 +204,7 @@
         "kind": 5,
         "importPath": "app.settings",
         "description": "app.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'\n    ]\n}",
         "detail": "app.settings",
         "documentation": {}
     },
@@ -90,7 +213,16 @@
         "kind": 5,
         "importPath": "app.settings",
         "description": "app.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'\n    ]\n}\nINSTALLED_APPS = [",
+        "detail": "app.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "app.settings",
+        "description": "app.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'\n    ]\n}\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "app.settings",
         "documentation": {}
     },
@@ -99,7 +231,16 @@
         "kind": 5,
         "importPath": "app.settings",
         "description": "app.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'rest_framework',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'articles',\n    'graphene_django',",
+        "detail": "app.settings",
+        "documentation": {}
+    },
+    {
+        "label": "GRAPHENE",
+        "kind": 5,
+        "importPath": "app.settings",
+        "description": "app.settings",
+        "peekOfCode": "GRAPHENE = {\n    \"SCHEMA\": \"app.schema.schema\"\n}\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
         "detail": "app.settings",
         "documentation": {}
     },
@@ -117,7 +258,7 @@
         "kind": 5,
         "importPath": "app.settings",
         "description": "app.settings",
-        "peekOfCode": "ROOT_URLCONF = 'app.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "peekOfCode": "ROOT_URLCONF = 'app.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR,'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
         "detail": "app.settings",
         "documentation": {}
     },
@@ -126,7 +267,7 @@
         "kind": 5,
         "importPath": "app.settings",
         "description": "app.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR,'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
         "detail": "app.settings",
         "documentation": {}
     },
@@ -216,7 +357,7 @@
         "kind": 5,
         "importPath": "app.urls",
         "description": "app.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('articles/', include('articles.urls')),\n    path(\"graphql\", GraphQLView.as_view(graphiql=True)),\n]",
         "detail": "app.urls",
         "documentation": {}
     },
@@ -227,6 +368,69 @@
         "description": "app.wsgi",
         "peekOfCode": "application = get_wsgi_application()",
         "detail": "app.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "articles.migrations.0001_initial",
+        "description": "articles.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Artcle',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=30)),",
+        "detail": "articles.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "articles.migrations.0002_auto_20210828_1944",
+        "description": "articles.migrations.0002_auto_20210828_1944",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('articles', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameModel(\n            old_name='Artcle',\n            new_name='Article',\n        ),\n    ]",
+        "detail": "articles.migrations.0002_auto_20210828_1944",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleAdmin",
+        "kind": 6,
+        "importPath": "articles.admin",
+        "description": "articles.admin",
+        "peekOfCode": "class ArticleAdmin(admin.ModelAdmin):\n    pass\n# Register your models here.",
+        "detail": "articles.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ArticlesConfig",
+        "kind": 6,
+        "importPath": "articles.apps",
+        "description": "articles.apps",
+        "peekOfCode": "class ArticlesConfig(AppConfig):\n    name = 'articles'",
+        "detail": "articles.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Article",
+        "kind": 6,
+        "importPath": "articles.models",
+        "description": "articles.models",
+        "peekOfCode": "class Article(models.Model):\n    title = models.CharField(max_length=30)\n    content = models.TextField()\n    def __str__(self):\n        return self.title",
+        "detail": "articles.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "articles.urls",
+        "description": "articles.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name=\"index\"),\n]",
+        "detail": "articles.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "articles.views",
+        "description": "articles.views",
+        "peekOfCode": "def index(request):\n    context= {\n        'person': 'hello world',\n        }\n    return render(request, 'index.html', context)\n    # return HttpResponse(Article.objects.all())",
+        "detail": "articles.views",
         "documentation": {}
     },
     {
