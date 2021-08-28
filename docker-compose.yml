@@ -8,10 +8,6 @@ services:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-
-      - VIRTUAL_HOST=backsoul.django.com
-      - LETSENCRYPT_HOST=backsoul.django.com
-      - LETSENCRYPT_EMAIL=danielsarmientoenterprise@gmail.com
     networks:
       - postgres_db
 
