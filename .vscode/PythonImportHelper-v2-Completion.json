@@ -135,7 +135,7 @@
         "kind": 5,
         "importPath": "app.settings",
         "description": "app.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'app.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'postgres',\n        'USER': 'postgres',\n        'PASSWORD': 'postgres',\n        'HOST': 'db',",
+        "peekOfCode": "WSGI_APPLICATION = 'app.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'postgres',\n        'USER': 'postgres',\n        'PASSWORD': 'postgres',\n        'HOST': 'postgresdb',",
         "detail": "app.settings",
         "documentation": {}
     },
@@ -144,7 +144,7 @@
         "kind": 5,
         "importPath": "app.settings",
         "description": "app.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'postgres',\n        'USER': 'postgres',\n        'PASSWORD': 'postgres',\n        'HOST': 'db',\n        'PORT': '5432',\n    }\n}",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'postgres',\n        'USER': 'postgres',\n        'PASSWORD': 'postgres',\n        'HOST': 'postgresdb',\n        'PORT': '5432',\n    }\n}",
         "detail": "app.settings",
         "documentation": {}
     },

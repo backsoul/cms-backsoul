@@ -1,20 +1,42 @@
 version: "3"
    
 services:
-  db:
+  postgresdb:
+    container_name: cms-postgresdb
     image: postgres
-    volumes:
-      - ./data/db:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
+    networks:
+      - postgres_db
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: cms-pgadmin
+    ports:
+      - 2222:2222
+    environment:
+      PGADMIN_DEFAULT_EMAIL: principal@shf.com.co
+      PGADMIN_DEFAULT_PASSWORD: mauricioa1989_
+      PGADMIN_LISTEN_PORT: 2222
+    networks:
+      - postgres_db
+    # restart: unless-stopped
+
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/app
     ports:
-      - "8000:8000"
-    depends_on:
-      - db
+      - 8000:8000
+    networks:
+      - postgres_db
+      - web
+
+networks:
+  postgres_db:
+    driver: bridge
+  web:
+    external: true
