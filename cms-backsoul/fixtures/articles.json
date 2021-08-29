@@ -1,0 +1,10 @@
+[
+  {
+    "model": "cms-backsoul.articles",
+    "pk": 1,
+    "fields": {
+      "title": "Paul",
+      "content": "McCartney"
+    }
+  }
+]

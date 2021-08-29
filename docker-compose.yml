@@ -10,6 +10,9 @@ services:
       - POSTGRES_PASSWORD=postgres
     networks:
       - postgres_db
+    volumes:
+      - /var/docker-data/cms-backsoul-db-data:/var/lib/postgresql/data/pgdata
+    
 
   pgadmin:
     image: dpage/pgadmin4
@@ -28,12 +31,19 @@ services:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
-      - .:/app
+      - .:/cms-backsoul
     ports:
       - 8000:8000
+    depends_on: 
+      - postgresdb
     networks:
       - postgres_db
       - web
+    volumes:
+      - cms-backsoul-web-data:/var/lib/cms-backsoul
+
+volumes:
+  cms-backsoul-web-data:
 
 networks:
   postgres_db:

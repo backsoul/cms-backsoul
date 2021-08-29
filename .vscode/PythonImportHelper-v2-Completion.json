@@ -1,87 +1,5 @@
 [
     {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
-        "documentation": {}
-    },
-    {
-        "label": "get_asgi_application",
-        "importPath": "django.core.asgi",
-        "description": "django.core.asgi",
-        "isExtraImport": true,
-        "detail": "django.core.asgi",
-        "documentation": {}
-    },
-    {
-        "label": "graphene",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "graphene",
-        "description": "graphene",
-        "detail": "graphene",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "admin",
-        "importPath": "django.contrib",
-        "description": "django.contrib",
-        "isExtraImport": true,
-        "detail": "django.contrib",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "include",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
-        "documentation": {}
-    },
-    {
-        "label": "GraphQLView",
-        "importPath": "graphene_django.views",
-        "description": "graphene_django.views",
-        "isExtraImport": true,
-        "detail": "graphene_django.views",
-        "documentation": {}
-    },
-    {
-        "label": "get_wsgi_application",
-        "importPath": "django.core.wsgi",
-        "description": "django.core.wsgi",
-        "isExtraImport": true,
-        "detail": "django.core.wsgi",
-        "documentation": {}
-    },
-    {
         "label": "migrations",
         "importPath": "django.db",
         "description": "django.db",
@@ -111,6 +29,22 @@
         "description": "django.db",
         "isExtraImport": true,
         "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
         "documentation": {}
     },
     {
@@ -130,6 +64,30 @@
         "documentation": {}
     },
     {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
         "label": "render",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
@@ -146,6 +104,56 @@
         "documentation": {}
     },
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "DjangoObjectType",
+        "importPath": "graphene_django",
+        "description": "graphene_django",
+        "isExtraImport": true,
+        "detail": "graphene_django",
+        "documentation": {}
+    },
+    {
+        "label": "graphene",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "graphene",
+        "description": "graphene",
+        "detail": "graphene",
+        "documentation": {}
+    },
+    {
+        "label": "GraphQLView",
+        "importPath": "graphene_django.views",
+        "description": "graphene_django.views",
+        "isExtraImport": true,
+        "detail": "graphene_django.views",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -155,282 +163,282 @@
         "documentation": {}
     },
     {
-        "label": "application",
-        "kind": 5,
-        "importPath": "app.asgi",
-        "description": "app.asgi",
-        "peekOfCode": "application = get_asgi_application()",
-        "detail": "app.asgi",
-        "documentation": {}
-    },
-    {
-        "label": "Query",
-        "kind": 6,
-        "importPath": "app.schema",
-        "description": "app.schema",
-        "peekOfCode": "class Query(graphene.ObjectType):\n    hello = graphene.String(default_value=\"Hi!\")\nschema = graphene.Schema(query=Query)",
-        "detail": "app.schema",
-        "documentation": {}
-    },
-    {
-        "label": "schema",
-        "kind": 5,
-        "importPath": "app.schema",
-        "description": "app.schema",
-        "peekOfCode": "schema = graphene.Schema(query=Query)",
-        "detail": "app.schema",
-        "documentation": {}
-    },
-    {
-        "label": "BASE_DIR",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'eqda*kl$7@vdr-$_@u$aj5n9^rp&vbmbu*-3jly%zpc23u0=_^'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "SECRET_KEY",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "SECRET_KEY = 'eqda*kl$7@vdr-$_@u$aj5n9^rp&vbmbu*-3jly%zpc23u0=_^'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DEBUG",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'\n    ]\n}",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ALLOWED_HOSTS",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'\n    ]\n}\nINSTALLED_APPS = [",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "REST_FRAMEWORK",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'\n    ]\n}\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "INSTALLED_APPS",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'rest_framework',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'articles',\n    'graphene_django',",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "GRAPHENE",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "GRAPHENE = {\n    \"SCHEMA\": \"app.schema.schema\"\n}\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "MIDDLEWARE",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'app.urls'",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ROOT_URLCONF",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "ROOT_URLCONF = 'app.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR,'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "TEMPLATES",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR,'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "WSGI_APPLICATION",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'app.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'postgres',\n        'USER': 'postgres',\n        'PASSWORD': 'postgres',\n        'HOST': 'postgresdb',",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "DATABASES",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'postgres',\n        'USER': 'postgres',\n        'PASSWORD': 'postgres',\n        'HOST': 'postgresdb',\n        'PORT': '5432',\n    }\n}",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "AUTH_PASSWORD_VALIDATORS",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "LANGUAGE_CODE",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "TIME_ZONE",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "USE_I18N",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "USE_L10N",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "USE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "USE_TZ",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "USE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATIC_URL",
-        "kind": 5,
-        "importPath": "app.settings",
-        "description": "app.settings",
-        "peekOfCode": "STATIC_URL = '/static/'",
-        "detail": "app.settings",
-        "documentation": {}
-    },
-    {
-        "label": "urlpatterns",
-        "kind": 5,
-        "importPath": "app.urls",
-        "description": "app.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('articles/', include('articles.urls')),\n    path(\"graphql\", GraphQLView.as_view(graphiql=True)),\n]",
-        "detail": "app.urls",
-        "documentation": {}
-    },
-    {
-        "label": "application",
-        "kind": 5,
-        "importPath": "app.wsgi",
-        "description": "app.wsgi",
-        "peekOfCode": "application = get_wsgi_application()",
-        "detail": "app.wsgi",
-        "documentation": {}
-    },
-    {
         "label": "Migration",
         "kind": 6,
-        "importPath": "articles.migrations.0001_initial",
-        "description": "articles.migrations.0001_initial",
+        "importPath": "cms-backsoul.articles.migrations.0001_initial",
+        "description": "cms-backsoul.articles.migrations.0001_initial",
         "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Artcle',\n            fields=[\n                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=30)),",
-        "detail": "articles.migrations.0001_initial",
+        "detail": "cms-backsoul.articles.migrations.0001_initial",
         "documentation": {}
     },
     {
         "label": "Migration",
         "kind": 6,
-        "importPath": "articles.migrations.0002_auto_20210828_1944",
-        "description": "articles.migrations.0002_auto_20210828_1944",
+        "importPath": "cms-backsoul.articles.migrations.0002_auto_20210828_1944",
+        "description": "cms-backsoul.articles.migrations.0002_auto_20210828_1944",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('articles', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameModel(\n            old_name='Artcle',\n            new_name='Article',\n        ),\n    ]",
-        "detail": "articles.migrations.0002_auto_20210828_1944",
-        "documentation": {}
-    },
-    {
-        "label": "ArticleAdmin",
-        "kind": 6,
-        "importPath": "articles.admin",
-        "description": "articles.admin",
-        "peekOfCode": "class ArticleAdmin(admin.ModelAdmin):\n    pass\n# Register your models here.",
-        "detail": "articles.admin",
+        "detail": "cms-backsoul.articles.migrations.0002_auto_20210828_1944",
         "documentation": {}
     },
     {
         "label": "ArticlesConfig",
         "kind": 6,
-        "importPath": "articles.apps",
-        "description": "articles.apps",
+        "importPath": "cms-backsoul.articles.apps",
+        "description": "cms-backsoul.articles.apps",
         "peekOfCode": "class ArticlesConfig(AppConfig):\n    name = 'articles'",
-        "detail": "articles.apps",
+        "detail": "cms-backsoul.articles.apps",
         "documentation": {}
     },
     {
         "label": "Article",
         "kind": 6,
-        "importPath": "articles.models",
-        "description": "articles.models",
+        "importPath": "cms-backsoul.articles.models",
+        "description": "cms-backsoul.articles.models",
         "peekOfCode": "class Article(models.Model):\n    title = models.CharField(max_length=30)\n    content = models.TextField()\n    def __str__(self):\n        return self.title",
-        "detail": "articles.models",
+        "detail": "cms-backsoul.articles.models",
         "documentation": {}
     },
     {
         "label": "urlpatterns",
         "kind": 5,
-        "importPath": "articles.urls",
-        "description": "articles.urls",
+        "importPath": "cms-backsoul.articles.urls",
+        "description": "cms-backsoul.articles.urls",
         "peekOfCode": "urlpatterns = [\n    path('', views.index, name=\"index\"),\n]",
-        "detail": "articles.urls",
+        "detail": "cms-backsoul.articles.urls",
         "documentation": {}
     },
     {
         "label": "index",
         "kind": 2,
-        "importPath": "articles.views",
-        "description": "articles.views",
-        "peekOfCode": "def index(request):\n    context= {\n        'person': 'hello world',\n        }\n    return render(request, 'index.html', context)\n    # return HttpResponse(Article.objects.all())",
-        "detail": "articles.views",
+        "importPath": "cms-backsoul.articles.views",
+        "description": "cms-backsoul.articles.views",
+        "peekOfCode": "def index(request):\n    return HttpResponse(Article.objects.all())",
+        "detail": "cms-backsoul.articles.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "cms-backsoul.asgi",
+        "description": "cms-backsoul.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "cms-backsoul.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleType",
+        "kind": 6,
+        "importPath": "cms-backsoul.schema",
+        "description": "cms-backsoul.schema",
+        "peekOfCode": "class ArticleType(DjangoObjectType):\n    class Meta:\n        model = Article\n        fields = (\"id\",\"title\",\"content\")\nclass Query(graphene.ObjectType):\n    all_articles = graphene.List(ArticleType)\n    @graphene.resolve_only_args\n    def resolve_all_articles(self):\n        return Article.objects.all()\nschema = graphene.Schema(query=Query)",
+        "detail": "cms-backsoul.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "kind": 6,
+        "importPath": "cms-backsoul.schema",
+        "description": "cms-backsoul.schema",
+        "peekOfCode": "class Query(graphene.ObjectType):\n    all_articles = graphene.List(ArticleType)\n    @graphene.resolve_only_args\n    def resolve_all_articles(self):\n        return Article.objects.all()\nschema = graphene.Schema(query=Query)",
+        "detail": "cms-backsoul.schema",
+        "documentation": {}
+    },
+    {
+        "label": "schema",
+        "kind": 5,
+        "importPath": "cms-backsoul.schema",
+        "description": "cms-backsoul.schema",
+        "peekOfCode": "schema = graphene.Schema(query=Query)",
+        "detail": "cms-backsoul.schema",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'eqda*kl$7@vdr-$_@u$aj5n9^rp&vbmbu*-3jly%zpc23u0=_^'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "SECRET_KEY = 'eqda*kl$7@vdr-$_@u$aj5n9^rp&vbmbu*-3jly%zpc23u0=_^'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'\n    ]\n}",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'\n    ]\n}\nINSTALLED_APPS = [",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "REST_FRAMEWORK",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "REST_FRAMEWORK = {\n    # Use Django's standard `django.contrib.auth` permissions,\n    # or allow read-only access for unauthenticated users.\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'\n    ]\n}\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'rest_framework',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'cms-backsoul.articles',\n    'graphene_django',",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "GRAPHENE",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "GRAPHENE = {\n    \"SCHEMA\": \"cms-backsoul.schema.schema\"\n}\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'cms-backsoul.urls'",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "ROOT_URLCONF = 'cms-backsoul.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR,'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [os.path.join(BASE_DIR,'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'cms-backsoul.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'postgres',\n        'USER': 'postgres',\n        'PASSWORD': 'postgres',\n        'HOST': 'postgresdb',",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql_psycopg2',\n        'NAME': 'postgres',\n        'USER': 'postgres',\n        'PASSWORD': 'postgres',\n        'HOST': 'postgresdb',\n        'PORT': '5432',\n    }\n}",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "USE_TZ = False\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.0/howto/static-files/\nSTATIC_URL = '/static/'",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "cms-backsoul.settings",
+        "description": "cms-backsoul.settings",
+        "peekOfCode": "STATIC_URL = '/static/'",
+        "detail": "cms-backsoul.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "cms-backsoul.urls",
+        "description": "cms-backsoul.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path(\"graphql\", GraphQLView.as_view(graphiql=True)),\n]",
+        "detail": "cms-backsoul.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "cms-backsoul.wsgi",
+        "description": "cms-backsoul.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "cms-backsoul.wsgi",
         "documentation": {}
     },
     {
@@ -438,7 +446,7 @@
         "kind": 2,
         "importPath": "manage",
         "description": "manage",
-        "peekOfCode": "def main():\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'app.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"\n        ) from exc",
+        "peekOfCode": "def main():\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'cms-backsoul.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"\n        ) from exc",
         "detail": "manage",
         "documentation": {}
     }

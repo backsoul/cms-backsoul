@@ -1,8 +1,8 @@
 FROM python:3.8
 
 ENV PYTHONNUNBUFFERED 1
-RUN mkdir /app
-WORKDIR /app
-COPY requirements.txt /app/
+RUN mkdir /cms-backsoul
+WORKDIR /cms-backsoul
+COPY requirements.txt /cms-backsoul/
 RUN python -m pip install -r requirements.txt
-COPY . /app/
+COPY . /cms-backsoul/

@@ -45,12 +45,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'articles',
+    'cms-backsoul.articles',
     'graphene_django',
+    'django_seed'
 ]
 
 GRAPHENE = {
-    "SCHEMA": "app.schema.schema"
+    "SCHEMA": "cms-backsoul.schema.schema"
 }
 
 MIDDLEWARE = [
@@ -63,7 +64,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'app.urls'
+ROOT_URLCONF = 'cms-backsoul.urls'
 
 TEMPLATES = [
     {
@@ -81,7 +82,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'app.wsgi.application'
+WSGI_APPLICATION = 'cms-backsoul.wsgi.application'
 
 
 # Database
