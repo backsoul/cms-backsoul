@@ -25,6 +25,8 @@ services:
       PGADMIN_LISTEN_PORT: 2222
     networks:
       - postgres_db
+    depends_on: 
+      - postgresdb
     # restart: unless-stopped
 
   web:
